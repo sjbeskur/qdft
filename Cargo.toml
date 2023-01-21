@@ -1,0 +1,19 @@
+[package]
+name = "qdft"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+smol = "1" # or any other runtime/executor
+async-tftp = "0.3"
+
+
+[[bin]]
+name = "qdserver"
+path = "src/server/main.rs"
+
+#[[bin]]
+#name = "qdtx"
+#path = "src/client/main.rs"
