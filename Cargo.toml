@@ -1,5 +1,5 @@
 [package]
-name = "qdft"
+name = "qdfs"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,9 +10,9 @@ smol = "1" # or any other runtime/executor
 async-tftp = "0.3"
 
 
-[[bin]]
-name = "qdserver"
-path = "src/server/main.rs"
+#git [[bin]]
+#name = "qdserver"
+#path = "src/server/main.rs"
 
 #[[bin]]
 #name = "qdtx"
